@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&family=Audiowide&family=Comfortaa:wght@300&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #302316 16.62%, #b48454 85.61%);
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;   
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Comfortaa', cursive;
+    font-size: 25px;
+    color:#ffffff;
+    gap: 50px;
+}
+
+.conteudo {
+    margin-bottom: 48px;
+    border-top: 0.4px solid aliceblue;
+}
+
+.conteudo-principal {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.conteudo-principal-escrito-titulo {
+    padding: 20px;
+    font-family: 'Audiowide', cursive;
+    font-size: 35px;
+    color: #ffffff;
+}
+
+.conteudo-principal-escrito-subtitulo {
+    font-family: 'Abhaya Libre', serif;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: 200;
+}
+
+.conteudo-principal-botao {
+    margin: 30px;
+    background-color: #e7e4e1;
+    height: 60px;
+    width: 180px;
+    border: none;
+    box-shadow:  4px 5px 4px rgba(0, 0, 0, 0.50);
+    border-radius: 20px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    color: #292420;
+    font-weight: 700;
+}
+
+.conteudo-principal-botao:hover {
+    background-color: hsla(0, 15%, 94%, 0.53)
+}
+
+.conteudo-principal-imagem {
+    padding: 20px;
+    margin: 40px;
+    border-radius: 40px;
+    box-shadow: hsla(0, 29%, 41%, 0.53);
+    border: none;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+    margin-top: 48px;
+}
+
+.conteudo-secundario-inferior-titulo {
+    margin-top: 48px;
+    margin-bottom: 48px;
+    border-top: 00.4px solid #ffffff;
+    font-family: 'Abhaya Libre', serif;
+    align-items: center;        
+    display: flex;  
+    justify-content: center;
+    padding: 30px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #e7e4e1;
+}
+
+.conteudo-secundario-inferior-paragrafo{
+    display: flex;
+    font-family: 'Comfortaa', cursive;
+    font-size: 16px;
+    font-weight: 400;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    color: #e7e4e1;
+}
+
+.rodape {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
