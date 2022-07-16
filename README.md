@@ -1,1 +1,2 @@
 # Climbing-Page
+🧗 THIS IS A PROJECT FOR A FICTIONAL CLIMBING PAGE 🧗
